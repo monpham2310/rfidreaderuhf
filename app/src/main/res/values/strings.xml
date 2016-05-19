@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Đọc Thẻ(JDT)</string>
+    <string name="menu_save_card">Lưu Thẻ</string>
+    <string name="menu_read_card">Đọc Thẻ</string>
+    <string name="menu_about">Thông Tin</string>
+    <string name="menu_exit">Thoát</string>
+    <string name="title_activity_save_card">Lưu Thẻ</string>
+    <string name="title_activity_about">Thông Tin</string>
+    <string name="choose_kind_of">Chọn Loại Thẻ</string>
+    <string name="price">Giá Tiền</string>
+    <string name="notify">Thông Báo</string>
+    <string name="success">Thành Công</string>
+    <string name="none_success">Thất Bại</string>
+    <string name="product_name">Tên Sản Phẩm</string>
+    <string name="connected">Đã Kết Nối</string>
+    <string name="disconnected">Không Có Kết Nối</string>
+    <string name="search">Đang Tìm Kiếm</string>
+    <string name="colHeaderStt">STT</string>
+    <string name="colHeaderType">Loại</string>
+    <string name="colHeaderName">Tên</string>
+    <string name="colHeaderAmount">Số lượng</string>
+    <string name="colHeaderPrice">Giá</string>
+</resources>
