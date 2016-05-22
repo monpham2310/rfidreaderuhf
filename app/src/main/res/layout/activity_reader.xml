@@ -22,53 +22,78 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:stretchColumns="*"
-        android:minWidth="25px"
-        android:minHeight="40dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        >
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
         <TableRow
-            android:textAlignment="center"
-            android:layout_height="match_parent"
-            android:layout_width="match_parent">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
             <TextView
-                android:textSize="@dimen/colTextHeader"
-                android:layout_width="wrap_content"
+                android:id="@+id/tvStt"
+                android:layout_width="3dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
                 android:text="@string/colHeaderStt"
-                android:layout_column="1"
-                android:textStyle="bold"/>
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
             <TextView
-                android:textSize="@dimen/colTextHeader"
-                android:layout_width="wrap_content"
+                android:id="@+id/tvName"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
                 android:text="@string/colHeaderName"
-                android:layout_column="2"
-                android:textStyle="bold"/>
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
             <TextView
-                android:textSize="@dimen/colTextHeader"
-                android:layout_width="wrap_content"
+                android:id="@+id/tvType"
+                android:layout_width="30dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
                 android:text="@string/colHeaderType"
-                android:layout_column="3"
-                android:textStyle="bold"/>
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
             <TextView
-                android:textSize="@dimen/colTextHeader"
-                android:layout_width="wrap_content"
+                android:id="@+id/tvAmount"
+                android:layout_width="3dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
                 android:text="@string/colHeaderAmount"
-                android:layout_column="4"
-                android:textStyle="bold"/>
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
             <TextView
-                android:textSize="@dimen/colTextHeader"
-                android:layout_width="wrap_content"
+                android:id="@+id/tvPrice"
+                android:layout_width="20dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
                 android:text="@string/colHeaderPrice"
-                android:layout_column="5"
-                android:textStyle="bold"/>
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
         </TableRow>
 
     </TableLayout>
@@ -80,5 +105,82 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         />
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#92C94A" >
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="3dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Tổng cộng:"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tvTotalAmount"
+                android:layout_width="3dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="@string/colHeaderAmount"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tvTotalPrice"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="@string/colHeaderPrice"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+    </TableLayout>
 
 </LinearLayout>

@@ -3,6 +3,6 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
-    <dimen name="colTextHeader">22sp</dimen>
-
+    <dimen name="colTextHeader">20sp</dimen>
+    <dimen name="colTextBody">18sp</dimen>
 </resources>

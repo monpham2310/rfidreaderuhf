@@ -28,6 +28,7 @@
         android:layout_marginTop="10dip"
         android:text="@string/choose_kind_of"
         android:textSize="30dp"
+        android:background="#aaf1e2"
         />
 
     <Spinner
@@ -36,6 +37,7 @@
         android:prompt="@string/choose_kind_of"
         android:textColor="@android:color/black"
         android:textSize="20dp"
+        android:background="@drawable/cellborder"
         android:id="@+id/cb_loai_card">
     </Spinner>
 
@@ -45,6 +47,7 @@
         android:layout_marginTop="10dip"
         android:text="@string/product_name"
         android:textSize="30dp"
+        android:background="#aaf1e2"
         />
 
     <EditText
@@ -59,6 +62,7 @@
         android:layout_marginTop="10dip"
         android:text="@string/price"
         android:textSize="30dp"
+        android:background="#aaf1e2"
         />
 
     <EditText
@@ -74,6 +78,7 @@
         android:layout_marginTop="10dip"
         android:text="@string/notify"
         android:textSize="30dp"
+        android:background="#aaf1e2"
         />
 
     <TextView

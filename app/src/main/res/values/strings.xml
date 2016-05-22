@@ -15,9 +15,11 @@
     <string name="connected">Đã Kết Nối</string>
     <string name="disconnected">Không Có Kết Nối</string>
     <string name="search">Đang Tìm Kiếm</string>
+
     <string name="colHeaderStt">STT</string>
     <string name="colHeaderType">Loại</string>
     <string name="colHeaderName">Tên</string>
-    <string name="colHeaderAmount">Số lượng</string>
+    <string name="colHeaderAmount">SL</string>
     <string name="colHeaderPrice">Giá</string>
+    <string name="txtTotalAmount">Tổng cộng</string>
 </resources>

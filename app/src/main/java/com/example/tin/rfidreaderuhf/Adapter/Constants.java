@@ -9,4 +9,5 @@ public class Constants {
     public static final String THIRD_COLUMN = "Type";
     public static final String FOURTH_COLUMN = "Amount";
     public static final String FIFTH_COLUMN = "Price";
+    public static final String SIXTH_COLUMN = "Rfid";
 }

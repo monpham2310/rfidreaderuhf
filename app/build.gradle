@@ -27,4 +27,5 @@ dependencies {
     compile 'com.android.support:design:23.1.1'
     compile files('libs/IvrJack.RU01.jar')
     compile 'org.apache.httpcomponents:httpclient:4.5'
+
 }
